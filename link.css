@@ -1,0 +1,402 @@
+*{font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* <!-- common-style --> */
+.common-colour{
+   color: #0B0223;
+} 
+/* <!-- nav section --> */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+   
+height: 100px;
+background-color: #FFF;
+padding: 0px 240px;
+
+   
+    
+}
+.nav span{
+    color: #FF42A5;
+}
+.logo-img{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 900;
+}
+/* .logo-img h1{
+
+} */
+.logo-img img{
+    width: 86.041px;
+    height: 40px;
+    margin-right: 20px;
+    
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+
+
+
+}
+.manu ul{
+    display: flex;
+
+}
+.manu ul li{
+    list-style: none;
+    padding-left: 30px;
+    font-size: 20px;
+}
+.nav-icon{
+margin-left: 30px;
+border-radius: 8px;
+background-color: rgba(11, 2, 35, 0.10);
+padding: 14px 46px ;
+
+align-items: center;
+display: flex;
+
+
+
+
+}
+.nav-icon p{
+    color: #3C354F;
+    font-size: 20px;
+
+}
+.nav-icon i{
+    margin-left: 20px;
+    font-size: 30px;
+    color: red;
+}
+
+               /* banner section */
+        
+.banner{
+   
+    height: 600px;
+    width: 100%;
+    display: flex;
+   align-items: center;
+    justify-content: space-between;
+} 
+.banner-img{
+padding-right: 226px;
+}
+.banner-img img{
+height: 600px;
+width: 700px ;
+
+} 
+ 
+.banner-contant{
+    background-size: cover;
+    background-image: url(images/Group\ 14.png);
+    padding-left: 226px;
+    width: 78%;
+    height: 600px;
+    
+    background-repeat: no-repeat;
+
+}
+.contant{
+    
+    height: 300px;
+    width: 465px;
+    padding-top: 100px;
+    padding-left: 15px
+    
+} 
+.contant h2{
+  padding-bottom: 20px;
+font-size: 40px;
+font-weight: 600;
+}    
+.contant h1{
+  padding-bottom: 20px;
+font-size: 70px;
+font-weight: 800;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+} 
+  
+
+.info p{
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+
+}   
+ .info i{
+    margin-right: 10px;
+ } 
+ .play{
+   color: #FF42A5 ; 
+ }
+
+   .btn-pink{
+    
+padding: 21px 40px;
+background-color: #FF42A5;
+font-size: 20px;
+font-weight: 600;
+color: #FFF;
+border-radius: 48px;
+margin-top: 20px;
+border: none;
+
+
+}
+.btn-skyblue{
+
+        padding: 21px 40px;
+        background-color: #4EC5F7;;
+        font-size: 20px;
+        font-weight: 600;
+        color: #FFF;
+        border-radius: 48px;
+        border: none;
+        margin-left: 20px;
+
+}
+
+            /* gamer section */
+   
+            .gamer{
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+               
+                align-items: center;
+                background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+            }
+    .gamer-info{
+        text-align: right;
+        padding-right: 230px;
+    }
+    .gamer-img{
+        
+        
+        padding-left:  240px;
+
+    }
+    .gamer-info h1{
+        font-size: 48px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .gamer-info p{
+        color: #534C64;
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    .gamer-info button{
+        padding: 15px 30px;
+        background-color: #FF42A5; 
+        font-size: 20px;
+        font-weight: 600;
+        color: #FFF;
+        border-radius: 48px;
+        border: none;
+        margin-left: 20px;
+        margin-bottom: 20px;
+
+    }
+    .btm-titel p{
+        font-size: 25px;
+        
+
+    }
+    section{
+        margin-top: 60px;
+    }
+                    
+            /* online games */
+
+    .online-games{
+        
+        
+        text-align: center;
+        
+
+    
+    }
+
+
+            .online-games-img img{
+    width: 304px;
+height: 358px;
+margin-right: 45px;
+
+
+
+}
+.online-games-img{
+    display: flex;
+    margin-left: 284px;
+   
+}
+.online-games-content h1{
+    font-size: 48px;
+    
+    color: #0B0223;
+    font-weight: 700;
+    margin:10px 0px;
+}
+.online-games-content p{
+    font-size: 18px;
+font-weight: 400;
+color: #534C64;
+margin-bottom: 25px;
+    
+}
+.common-titel span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.online-games-img li{
+    text-align: left;
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 13px;
+
+}
+        /* games-banner */
+.games-banner{
+    justify-content: center;
+    align-items: center;
+    margin: 0px 270px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.games-banner-titel{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+    
+
+
+.games-banner h2{
+    font-size: 48px;
+
+font-weight: 700;
+
+}
+.games-banner .h2-2{
+    margin-bottom: 20px;
+}
+.titel{
+    padding-bottom: 295px;
+}
+.games-banner p{
+    color: #534C64;
+font-size: 18px;
+font-weight: 400;
+}
+.games-banner-img1 img{
+   
+    width: 534px;
+    height: 550px;
+}
+
+.games-banner-img2{
+    position: relative;
+    top: -250px;
+    left: -172px;
+}
+.games-banner-img2 img{
+    width: 318px;
+height: 365px;
+}
+
+                    /* games-types */
+
+.first-line{
+    
+    display: flex;
+    height: 100px;
+    
+    padding: 0px 260px;
+    
+}
+.common-div{
+    height: 100px;
+width:200px ;
+
+}
+.common-div img{
+
+    padding-top: 22px;
+}
+.common-div p{
+    padding-top: 22px;
+
+}
+
+.main-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 1920px;
+height: 536px;
+background: #0B0223;
+color: white;
+
+}
+.main-footer ul li{
+    flex-direction: row;
+
+}
+.service{
+    display: flex;
+    margin-bottom: 40px;
+
+}
+
+    /* padding-bottom: 40px; */
+
+.service i{
+    padding: 0px 20px;
+    font-size: 30px;
+}
+.service li{
+    /* margin: 0px 40px; */
+    padding: 0px 30px;
+    list-style: none;
+
+}
+
+
+
+
+
+        
+
+
+     
